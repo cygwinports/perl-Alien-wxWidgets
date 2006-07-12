@@ -1,0 +1,4 @@
+category: Perl
+requires: cygwin perl
+sdesc: "Perl module for detecting wxWidgets system configurations"
+ldesc: "Perl module for detecting wxWidgets system configurations"
