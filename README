@@ -4,15 +4,15 @@ Perl module for detecting and accessing wxWidgets system configurations.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  perl-5.8.7-5
+  perl-5.8.8-4
 
 Build requirements:
   cygwin-1.5.24-2
-  cygport-0.3.5-1
-  perl-5.8.7-5
+  cygport-0.3.7-1
+  perl-5.8.8-4
   perl-Module-Build-0.2808-1
   wx26-devel-2.6.4-1
-  wx28-devel-2.8.4-1
+  wx28-devel-2.8.6-1
 
 Canonical homepage:
   http://search.cpan.org/dist/Alien-wxWidgets/
@@ -39,11 +39,11 @@ Files included in the binary package:
 
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Config/gtk2_2_6_4_gcc_3_4.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Config/gtk2_2_8_4_gcc_3_4.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Config/gtk2_2_8_6_gcc_3_4.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Config/motif_2_6_4_gcc_3_4.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Config/motif_2_8_4_gcc_3_4.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Config/motif_2_8_6_gcc_3_4.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Config/x11_2_6_4_gcc_3_4.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Config/x11_2_8_4_gcc_3_4.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Config/x11_2_8_6_gcc_3_4.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Utility.pm
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Alien/wxWidgets/.packlist
   /usr/share/doc/Cygwin/perl-Alien-wxWidgets-0.32.README
@@ -55,6 +55,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.32-2 -----
+Rebuilt for wx-2.8.6.
 
 ----- version 0.32-1 -----
 Version bump.
