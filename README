@@ -3,15 +3,12 @@ perl-Alien-wxWidgets
 Perl module for detecting and accessing wxWidgets system configurations.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  perl-5.8.8-4
+  perl-5.10.0-3
 
 Build requirements:
-  cygwin-1.5.24-2
-  cygport-0.3.7-1
-  perl-5.8.8-4
-  perl-Module-Build-0.2808-1
-  wx26-devel-2.6.4-1
+  cygwin-1.5.25-7
+  cygport-0.3.9-1
+  wx26-devel-2.6.4-2
   wx28-devel-2.8.6-1
 
 Canonical homepage:
@@ -23,38 +20,40 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Alien-wxWidgets-0.32-X-src.tar.bz2
+  unpack perl-Alien-wxWidgets-0.33-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Alien-wxWidgets-0.32-X.cygport all
+  cygport ./perl-Alien-wxWidgets-0.33-X.cygport all
 
 This will create:
-  /usr/src/perl-Alien-wxWidgets-0.32-X-src.tar.bz2
-  /usr/src/perl-Alien-wxWidgets-0.32-X.tar.bz2
+  /usr/src/perl-Alien-wxWidgets-0.33-X-src.tar.bz2
+  /usr/src/perl-Alien-wxWidgets-0.33-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Config/gtk2_2_6_4_gcc_3_4.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Config/gtk2_2_8_6_gcc_3_4.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Config/motif_2_6_4_gcc_3_4.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Config/motif_2_8_6_gcc_3_4.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Config/x11_2_6_4_gcc_3_4.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Config/x11_2_8_6_gcc_3_4.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Alien/wxWidgets/Utility.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Alien/wxWidgets/.packlist
-  /usr/share/doc/Cygwin/perl-Alien-wxWidgets-0.32.README
-  /usr/share/doc/perl-Alien-wxWidgets-0.32/Changes
-  /usr/share/doc/perl-Alien-wxWidgets-0.32/README.txt
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Config/gtk2_2_6_4_gcc_3_4.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Config/gtk2_2_8_6_gcc_3_4.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Config/motif_2_6_4_gcc_3_4.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Config/motif_2_8_6_gcc_3_4.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Config/x11_2_6_4_gcc_3_4.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Config/x11_2_8_6_gcc_3_4.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Utility.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Alien/wxWidgets/.packlist
+  /usr/share/doc/perl-Alien-wxWidgets-0.33/Changes
+  /usr/share/doc/perl-Alien-wxWidgets-0.33/README.txt
   /usr/share/man/man3/Alien.wxWidgets.3pm.gz
   /usr/share/man/man3/Alien.wxWidgets.Utility.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 0.33-1 -----
+Version bump, built for perl-5.10.
 
 ----- version 0.32-2 -----
 Rebuilt for wx-2.8.6.
