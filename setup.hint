@@ -1,4 +1,4 @@
 category: Perl
-requires: perl
+requires: perl wx28-devel
 sdesc: "Perl module for detecting wxWidgets system configurations"
 ldesc: "Perl module for detecting wxWidgets system configurations"
