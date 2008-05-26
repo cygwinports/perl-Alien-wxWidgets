@@ -4,10 +4,10 @@ Perl module for detecting and accessing wxWidgets system configurations.
 
 Runtime requirements:
   perl-5.10.0-3
-  wx28-devel-2.8.6-1
+  wx28-devel-2.8.7-1
 
 Build requirements:
-  cygport-0.3.9-1
+  cygport-0.3.10-1
 
 Canonical homepage:
   http://search.cpan.org/dist/Alien-wxWidgets/
@@ -18,32 +18,35 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Alien-wxWidgets-0.34-X-src.tar.bz2
+  unpack perl-Alien-wxWidgets-0.36-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Alien-wxWidgets-0.34-X.cygport all
+  cygport ./perl-Alien-wxWidgets-0.36-X.cygport all
 
 This will create:
-  /usr/src/perl-Alien-wxWidgets-0.34-X-src.tar.bz2
-  /usr/src/perl-Alien-wxWidgets-0.34-X.tar.bz2
+  /usr/src/perl-Alien-wxWidgets-0.36-X-src.tar.bz2
+  /usr/src/perl-Alien-wxWidgets-0.36-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets.pm
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Config/gtk2_2_8_6_gcc_3_4.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Config/gtk2_2_8_7_gcc_3_4.pm
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Utility.pm
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Alien/wxWidgets/.packlist
-  /usr/share/doc/perl-Alien-wxWidgets-0.34/Changes
-  /usr/share/doc/perl-Alien-wxWidgets-0.34/README.txt
+  /usr/share/doc/perl-Alien-wxWidgets-0.36/Changes
+  /usr/share/doc/perl-Alien-wxWidgets-0.36/README.txt
   /usr/share/man/man3/Alien.wxWidgets.3pm.gz
   /usr/share/man/man3/Alien.wxWidgets.Utility.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 0.36-1 -----
+Version bump.
 
 ----- version 0.34-1 -----
 Version bump.
