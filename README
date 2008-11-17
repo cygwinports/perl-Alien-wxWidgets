@@ -18,34 +18,37 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Alien-wxWidgets-0.39-X-src.tar.bz2
+  unpack perl-Alien-wxWidgets-0.42-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Alien-wxWidgets-0.39-X.cygport all
+  cygport ./perl-Alien-wxWidgets-0.42-X.cygport all
 
 This will create:
-  /usr/src/perl-Alien-wxWidgets-0.39-X-src.tar.bz2
-  /usr/src/perl-Alien-wxWidgets-0.39-X.tar.bz2
+  /usr/src/perl-Alien-wxWidgets-0.42-X-src.tar.bz2
+  /usr/src/perl-Alien-wxWidgets-0.42-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets.pm
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Config/gtk2_2_8_8_gcc_3_4.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Config/gtk2_2_8_9_gcc_3_4.pm
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Utility.pm
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Alien/wxWidgets/.packlist
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/Alien/wxWidgets.html
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/Alien/wxWidgets/Utility.html
-  /usr/share/doc/perl-Alien-wxWidgets-0.39/Changes
-  /usr/share/doc/perl-Alien-wxWidgets-0.39/README.txt
+  /usr/share/doc/perl-Alien-wxWidgets-0.42/Changes
+  /usr/share/doc/perl-Alien-wxWidgets-0.42/README.txt
   /usr/share/man/man3/Alien.wxWidgets.3pm.gz
   /usr/share/man/man3/Alien.wxWidgets.Utility.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 0.42-1 -----
+Version bump.
 
 ----- version 0.39-1 -----
 Version bump.
