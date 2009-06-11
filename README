@@ -4,7 +4,7 @@ Perl module for detecting and accessing wxWidgets system configurations.
 
 Runtime requirements:
   perl-5.10.0-5
-  libwx_gtk2u2.8-devel-2.8.9.2-10
+  libwx_gtk2u2.8-devel-2.8.10.1-1
 
 Build requirements:
   cygport-0.9.6-1
@@ -18,22 +18,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Alien-wxWidgets-0.42-X-src.tar.bz2
+  unpack perl-Alien-wxWidgets-0.43-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Alien-wxWidgets-0.42-X.cygport all
+  cygport ./perl-Alien-wxWidgets-0.43-X.cygport all
 
 This will create:
-  /usr/src/perl-Alien-wxWidgets-0.42-X-src.tar.bz2
-  /usr/src/perl-Alien-wxWidgets-0.42-X.tar.bz2
+  /usr/src/perl-Alien-wxWidgets-0.43-X-src.tar.bz2
+  /usr/src/perl-Alien-wxWidgets-0.43-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets.pm
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Config/gtk2_2_8_9_uni_gcc_3_4.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Config/gtk2_2_8_10_uni_gcc_3_4.pm
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Alien/wxWidgets/Utility.pm
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Alien/wxWidgets/.packlist
   /usr/share/doc/perl-5.10.0/html/html3/site/lib/Alien/wxWidgets.html
@@ -46,6 +46,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.43-1 -----
+Version bump.
 
 ----- version 0.42-10 -----
 Initial release for Cygwin 1.7.
