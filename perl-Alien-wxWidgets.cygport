@@ -1,9 +1,11 @@
+NAME="perl-Alien-wxWidgets"
+VERSION=0.62
+RELEASE=1
+DESCRIPTION="Perl module for detecting wxWidgets system configurations"
 CPAN_AUTHOR=mdootson
 WX_VERSION=2.8
 WX_TOOLKIT=gtk2
 inherit perl wxwidgets
-
-DESCRIPTION="Perl module for detecting wxWidgets system configurations"
 
 PATCH_URI="
 	0.37-dlext.patch
