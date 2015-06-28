@@ -4,7 +4,7 @@ WX_TOOLKIT=gtk2
 inherit perl wxwidgets
 
 NAME="perl-Alien-wxWidgets"
-VERSION=0.64
+VERSION=0.67
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl wxWidgets configuration module"
