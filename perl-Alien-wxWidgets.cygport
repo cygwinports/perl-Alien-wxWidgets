@@ -5,7 +5,7 @@ inherit perl wxwidgets
 
 NAME="perl-Alien-wxWidgets"
 VERSION=0.67
-RELEASE=1
+RELEASE=2
 CATEGORY="Perl"
 SUMMARY="Perl wxWidgets configuration module"
 DESCRIPTION="Perl module for detecting wxWidgets system configurations"
