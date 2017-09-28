@@ -1,11 +1,9 @@
 CPAN_AUTHOR=mdootson
-WX_VERSION=2.8
-WX_TOOLKIT=gtk2
-inherit perl wxwidgets
+inherit perl
 
 NAME="perl-Alien-wxWidgets"
-VERSION=0.67
-RELEASE=2
+VERSION=0.69
+RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl wxWidgets configuration module"
 DESCRIPTION="Perl module for detecting wxWidgets system configurations"
@@ -15,10 +13,12 @@ PATCH_URI="
 	0.51-cygwin.patch
 "
 
-REQUIRES="libwx_gtk2u2.8-devel"
-
 src_compile() {
 	lndirs
 	cd ${B}
-	yes n | perl_compile
+	for wxconf in gtk2-unicode-release-2.8 gtk2-unicode-3.0 gtk3-unicode-3.0
+	do
+		export WX_CONFIG=/usr/lib/wx/config/$wxconf
+		perl_compile < /dev/null
+	done
 }
